@@ -1,0 +1,32 @@
+# GET http://177.44.248.60/users
+# Content-Type: 'application/json'
+
+# # corpo da requisicao exmplo =
+# {
+#     "id": 3
+# }
+
+# ###
+
+# POST  http://177.44.248.60/users
+
+
+//lista de tarefas
+GET http://177.44.248.62:3001/tasks
+
+###
+
+POST http://177.44.248.30:3333/auth
+
+###
+
+POST http://177.44.248.33/api/users
+content-type: application/json
+
+{
+    "name": "JONAS",
+    "password": "123",
+    "age": 12,
+    "sex": "M",
+    "email": "jonasdhein1@gmail.com"
+}
